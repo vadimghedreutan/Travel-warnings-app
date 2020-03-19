@@ -20,4 +20,18 @@
   @include media('<=tablet') {
     position: relative;
   }
+
+  .social {
+    display: flex;
+
+    li {
+      margin-right: .4rem;
+      list-style: none;
+
+      i {
+        color: $black;
+        font-size: 1.2rem;
+      }
+    }
+  }
 }
