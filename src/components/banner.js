@@ -7,7 +7,7 @@ const Banner = () => {
         <div className="row">
           <h2>
             <div className="line">
-              <span>Latest Travel Alerts and Warnings</span>
+              <span>Travel Alerts and Warnings</span>
             </div>
             <div className="line">
               <span>Coronavirus 2020</span>
