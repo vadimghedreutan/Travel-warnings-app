@@ -2,8 +2,8 @@
   height: 40vh; //fallback option
   height: calc(var(--vh, 1vh) * 40);
   background-color: $white;
-  @include media('<=tablet') {
-    margin-top: -96px;
+  @include media('<=414px') {
+    margin-top: -56px;
   }
   .row {
     flex-direction: column;
