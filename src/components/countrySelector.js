@@ -48,9 +48,9 @@ function CountrySelector() {
         {Object.entries(countries_custom.countries).map((
           [country, code]) => (
             <option
-              selected={selectedCountry === countries.iso3[code] } 
+              selected={selectedCountry === countries[code] } 
               key={code} 
-              value={countries.iso3[code]}
+              value={countries[code]}
             >
               {country}
             </option>
